@@ -90,7 +90,7 @@ class MoverHandler(FileSystemEventHandler):
                 logging.info(f"Moved document file: {name}")
 
 
-# ! NO NEED TO CHANGE BELOW CODE
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(message)s',
